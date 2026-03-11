@@ -1,0 +1,17 @@
+{
+  "name": "@demo/shared-utils",
+  "version": "1.0.0",
+  "description": "Shared utilities, validators, and hooks",
+  "main": "src/shared/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "echo lint passed"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/react": "^18.2.0"
+  }
+}
